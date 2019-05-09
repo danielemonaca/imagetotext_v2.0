@@ -2,8 +2,8 @@ package com.imagetotext.com;
 import java.io.PrintWriter;
 public class Main {
 public static void main(String[] args) {
- String input_file="C:\\Users\\Daniele\\Desktop\\live_quiz\\33.png"; 
- String output_file="C:\\Users\\Daniele\\Desktop\\live_quiz\\33"; //No need to specify .txt
+ String input_file=""; 
+ String output_file=""; //No need to specify .txt
  String tesseract_install_path="C:\\Program Files (x86)\\Tesseract-OCR\\tesseract"; //Tesseract path folder
  String[] command =
     {
